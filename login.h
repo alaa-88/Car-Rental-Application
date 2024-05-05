@@ -13,6 +13,7 @@ int admin_login(){
    string pass ="";
    char ch;
    cout <<"\n\n\n\n\n\n\n\t\t\t\t\tWelcome to admin view";
+   cout <<"\n\n\n\n\n\n\n\t\t\t\t\tpassword= pass";
    cout << "\n\n\n\n\n\n\n\t\t\t\t\tPlease Enter Password: ";
    ch = _getch();
    while(ch != 13){//character 13 is enter
